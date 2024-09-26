@@ -73,7 +73,7 @@ const questionsStep = {
 
             <div class="row quiz-content text-center">
 
-                <div class="row justify-content-center mt-4" style="margin: 0 auto;">
+                <div class="row justify-content-center mt-4" style="margin: 0 auto; margin-top: 0px !important">
                     <div class="progress col-md-6" style="padding-left: 0 !important; padding-right: 0 !important;">
                         <div class="progress-bar" style="width: ${questionsStep.getProgress()}%">${questionsStep.getProgress()}%</div>
                     </div>

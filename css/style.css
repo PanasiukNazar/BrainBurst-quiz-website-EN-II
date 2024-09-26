@@ -642,12 +642,17 @@ header h2 {
     .quiz-content .button:first-child {
         margin-bottom: 20px;
     }
+
+    .quiz-preview {
+        flex-direction: column-reverse;
+    }
 }
 
 .quiz-img {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .form-block {
